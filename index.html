@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh Naarayanan K | Portfolio</title>
+    <meta name="description" content="Portfolio of Dinesh Naarayanan K - Artificial Intelligence & Data Science Undergraduate, AI & ML Developer, and Full-Stack Enthusiast.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=1.5">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div id="particles-container"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#hero" class="logo">
+                <span class="logo-text-desktop">Dinesh Naarayanan K</span><span class="logo-text-mobile">Dinesh.K</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact-nav">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Open navigation menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="section-container hero-grid">
+                <div class="hero-content">
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Dinesh Naarayanan K</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span id="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        An Artificial Intelligence & Data Science undergraduate passionate about building intelligent systems, scalable web applications, and solving complex problems with data-driven technologies.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dineshnaarayanan/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="mailto:dineshnaarayanan30@gmail.com" class="social-icon-link" aria-label="Email">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                        <a href="tel:7604871203" class="social-icon-link" aria-label="Phone">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="visual-card-wrapper">
+                        <a href="https://www.linkedin.com/in/dineshnaarayanan/" target="_blank" rel="noopener noreferrer" class="profile-card-link">
+                            <div class="profile-card">
+                                <img src="profile.jpg" alt="Dinesh Naarayanan K" class="profile-img">
+                                <div class="profile-card-overlay">
+                                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="overlay-linkedin-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                    <span>Connect on LinkedIn</span>
+                                </div>
+                                <div class="profile-card-glow"></div>
+                            </div>
+                        </a>
+                        <div class="visual-floating-badge badge-1">
+                            <div class="badge-icon">🤖</div>
+                            <div class="badge-text">
+                                <div class="badge-label">Focus Area</div>
+                                <div class="badge-value">AI & ML</div>
+                            </div>
+                        </div>
+                        <div class="visual-floating-badge badge-2">
+                            <div class="badge-icon">💻</div>
+                            <div class="badge-text">
+                                <div class="badge-label">Full Stack</div>
+                                <div class="badge-value">Node / Mongo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About Section">
+                <span class="scroll-mouse">
+                    <span class="scroll-wheel"></span>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <div class="profile-card">
+                            <img src="profile.jpg" alt="Dinesh Naarayanan K" class="profile-img">
+                            <div class="profile-card-glow"></div>
+                        </div>
+                    </div>
+                    <div class="about-details">
+                        <h3 class="about-subtitle">My Journey & Objectives</h3>
+                        <p class="about-text">
+                            I am a Software Developer and Artificial Intelligence & Data Science undergraduate with proficiency in <strong>Python, Java, and JavaScript</strong>, backed by hands-on experience in full-stack development, AI-driven projects, and hackathons.
+                        </p>
+                        <p class="about-text">
+                            My core strengths lie in building scalable applications, developing intelligent algorithms, and solving complex problems using data-driven approaches. I enjoy working in collaborative environments and thrive in hackathons, where I can turn concepts into working prototypes within tight timeframes.
+                        </p>
+                        
+                        <div class="info-meta-grid">
+                            <div class="meta-item">
+                                <span class="meta-label">Location:</span>
+                                <span class="meta-value">Coimbatore, Tamil Nadu, India</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Degree:</span>
+                                <span class="meta-value">B.Tech Artificial Intelligence & Data Science</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Email:</span>
+                                <span class="meta-value"><a href="mailto:dineshnaarayanan30@gmail.com">dineshnaarayanan30@gmail.com</a></span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Languages:</span>
+                                <span class="meta-value">English, Tamil, Telugu</span>
+                            </div>
+                        </div>
+
+                        <div class="about-action">
+                            <button id="download-resume" class="btn btn-primary btn-with-icon">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                <span>Get Resume / CV</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="education-block">
+                        <h3 class="about-subtitle">Education</h3>
+                        <div class="timeline education-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <span class="timeline-year">Ongoing</span>
+                                        <h4 class="timeline-title">B.Tech in Artificial Intelligence & Data Science</h4>
+                                    </div>
+                                    <p class="timeline-institution">Dr. N.G.P. Institute of Technology, Coimbatore</p>
+                                    <div class="timeline-grade">
+                                        <span class="grade-badge">CGPA: 7.7</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <span class="timeline-year">2023</span>
+                                        <h4 class="timeline-title">HSC (Class XII)</h4>
+                                    </div>
+                                    <p class="timeline-institution">K.G. Matriculation Hr. Sec. School, Annur</p>
+                                    <div class="timeline-grade">
+                                        <span class="grade-badge">Percentage: 87%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <span class="timeline-year">2021</span>
+                                        <h4 class="timeline-title">SSLC (Class X)</h4>
+                                    </div>
+                                    <p class="timeline-institution">K.G. Matriculation Hr. Sec. School, Annur</p>
+                                    <div class="timeline-grade">
+                                        <span class="grade-badge">Completed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding section-alt-bg">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skills-category-card">
+                        <div class="skills-category-header">
+                            <div class="category-icon icon-cyan">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                            </div>
+                            <h3 class="category-title">Programming</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-tag">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">HTML / CSS</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Core Concepts -->
+                    <div class="skills-category-card">
+                        <div class="skills-category-header">
+                            <div class="category-icon icon-indigo">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12"></path><rect x="12" y="12" width="10" height="10" rx="2" ry="2"></rect><path d="M12 18H2a2 2 0 0 0-2 2v2"></path></svg>
+                            </div>
+                            <h3 class="category-title">Core CS Concepts</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-tag">
+                                <span class="skill-name">Operating Systems</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">Deep Learning & AI</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">OOPS Concepts</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">Computer Networks</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Developer Frameworks & Tools -->
+                    <div class="skills-category-card">
+                        <div class="skills-category-header">
+                            <div class="category-icon icon-purple">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                            </div>
+                            <h3 class="category-title">Tools & Frameworks</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-tag">
+                                <span class="skill-name">Git & GitHub</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">GitOps (CI/CD)</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">Node.js & Express</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">MongoDB & SQLite</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">RAG (Ollama / LanceDB)</span>
+                            </div>
+                            <div class="skill-tag">
+                                <span class="skill-name">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects Showcase</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- Filter Navigation -->
+                <div class="projects-filter-wrapper">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai-ml">AI & ML</button>
+                    <button class="filter-btn" data-filter="fullstack">Full-Stack Web</button>
+                    <button class="filter-btn" data-filter="systems">Systems & Java</button>
+                </div>
+
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Project 1: ReConnect -->
+                    <div class="project-card" data-category="ai-ml">
+                        <div class="project-media-placeholder">
+                            <span class="project-icon-large">🤖</span>
+                            <div class="project-media-glow glow-cyan"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">AI & Machine Learning</span>
+                            <h3 class="project-name">ReConnect – AI Recommendation System</h3>
+                            <p class="project-description">
+                                An AI-powered system designed to generate personalized user recommendations by analyzing interaction patterns, optimizing data processing pipelines, and employing ranking techniques.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Python</span>
+                                <span>ML Algorithms</span>
+                                <span>Data Pipelines</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: PrivateRAG -->
+                    <div class="project-card" data-category="ai-ml">
+                        <div class="project-media-placeholder">
+                            <span class="project-icon-large">🔒</span>
+                            <div class="project-media-glow glow-indigo"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">AI & Machine Learning</span>
+                            <h3 class="project-name">PrivateRAG</h3>
+                            <p class="project-description">
+                                A privacy-focused RAG system for secure document retrieval and generative answering. Integrates Ollama, BM25, ColBERT, LanceDB, SQLite, and Docker.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>RAG Architecture</span>
+                                <span>Ollama</span>
+                                <span>LanceDB</span>
+                                <span>Docker</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: E-Commerce Website -->
+                    <div class="project-card" data-category="fullstack">
+                        <div class="project-media-placeholder">
+                            <span class="project-icon-large">🛒</span>
+                            <div class="project-media-glow glow-purple"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Full-Stack Web</span>
+                            <h3 class="project-name">E-Commerce Web Application</h3>
+                            <p class="project-description">
+                                A full-stack online marketplace with product catalogs, shopping cart management, user authorization, and secure mock payment and tracking workflows.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                                <span>RESTful APIs</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Library Management System -->
+                    <div class="project-card" data-category="systems">
+                        <div class="project-media-placeholder">
+                            <span class="project-icon-large">📚</span>
+                            <div class="project-media-glow glow-blue"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Systems & Java</span>
+                            <h3 class="project-name">Library Management System</h3>
+                            <p class="project-description">
+                                A Java application built with Object-Oriented principles, automating catalog curation, user records, and issue/return flows to streamline operational efficiency.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Java</span>
+                                <span>OOPS</span>
+                                <span>File/DB Storage</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Activity Section -->
+        <section id="github-activity" class="github-section section-padding">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">GitHub Contributions</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="github-calendar-wrapper">
+                    <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer" class="github-calendar-link">
+                        <img src="https://ghchart.rshah.org/216e39/dineshnaarayanan" alt="Dinesh's GitHub Contributions Calendar" class="github-calendar-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience, Hackathons & Workshops -->
+        <section id="experience" class="experience-section section-padding section-alt-bg">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience & Hackathons</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="experience-grid">
+                    <!-- Left: Internship & Workshops -->
+                    <div class="experience-column">
+                        <h3 class="column-subtitle">Professional Journey</h3>
+                        
+                        <div class="timeline-vertical">
+                            <!-- Gateways Software -->
+                            <div class="timeline-node">
+                                <div class="node-icon">💼</div>
+                                <div class="node-content">
+                                    <span class="node-date">June 2025</span>
+                                    <h4 class="node-title">AI & ML Intern</h4>
+                                    <p class="node-org">Gateways Software</p>
+                                    <ul class="node-bullets">
+                                        <li>Performed data cleaning, preprocessing, and model training to support machine learning project development.</li>
+                                        <li>Utilized machine learning and data analysis techniques to evaluate model performance and derive insights.</li>
+                                        <li>Collaborated closely with mentors to deliver project objectives within deadlines and enhance quality.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- GitOps Workshop -->
+                            <div class="timeline-node">
+                                <div class="node-icon">🛠️</div>
+                                <div class="node-content">
+                                    <span class="node-date">Workshop Training</span>
+                                    <h4 class="node-title">GitOps Workshop</h4>
+                                    <p class="node-org">Kongu Engineering College</p>
+                                    <ul class="node-bullets">
+                                        <li>Attended structured sessions on GitOps principles, software deployment, and infrastructure automation.</li>
+                                        <li>Learned version control and CI/CD fundamentals using modern Git-based workflow architectures.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Hackathons -->
+                    <div class="experience-column">
+                        <h3 class="column-subtitle">Hackathons & Projects</h3>
+
+                        <div class="timeline-vertical">
+                            <!-- SARV Drone -->
+                            <div class="timeline-node">
+                                <div class="node-icon">🛸</div>
+                                <div class="node-content">
+                                    <span class="node-date">MSME Project</span>
+                                    <h4 class="node-title">SARV Drone (Search & Rescue Vision Drone System)</h4>
+                                    <p class="node-org">Concept & Technical Development</p>
+                                    <ul class="node-bullets">
+                                        <li>Conceptualized an AI-powered drone system to assist in disaster management and emergency responses.</li>
+                                        <li>Designed core technical features for victim detection, affected-area mapping, and real-time feed processing.</li>
+                                        <li>Explored Artificial Intelligence & Computer Vision models suitable for rescue edge computing.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Sentiment Analysis Project -->
+                            <div class="timeline-node">
+                                <div class="node-icon">💬</div>
+                                <div class="node-content">
+                                    <span class="node-date">VIHANSA 2K26 National Hackathon</span>
+                                    <h4 class="node-title">Sentiment Analysis Model</h4>
+                                    <p class="node-org">National Level 24-Hour Hackathon</p>
+                                    <ul class="node-bullets">
+                                        <li>Developed a sentiment classification model utilizing Natural Language Processing (NLP) techniques.</li>
+                                        <li>Preprocessed social media data feeds to classify opinions as positive, negative, or neutral.</li>
+                                        <li>Collaborated with a cross-functional team to build, optimize, and present the prototype under a 24-hour limit.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certs-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">📊</span>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Data Analytics Job Simulation</h3>
+                            <p class="cert-provider">Deloitte</p>
+                            <span class="cert-year">2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">🧠</span>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Claude 101 Workflow</h3>
+                            <p class="cert-provider">Anthropic</p>
+                            <span class="cert-year">2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">✨</span>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">AI Fluency: Framework & Foundations</h3>
+                            <p class="cert-provider">GCP/Foundations</p>
+                            <span class="cert-year">2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">👥</span>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Human-Computer Interaction (HCI)</h3>
+                            <p class="cert-provider">NPTEL</p>
+                            <span class="cert-year">2026</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">🛡️</span>
+                        </div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Microsoft AI Skill Fest</h3>
+                            <p class="cert-provider">Microsoft</p>
+                            <span class="cert-year">2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding section-alt-bg">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-center-wrapper">
+                    <!-- Contact Cards -->
+                    <div class="contact-info-panel">
+                        <h3 class="contact-subtitle">Connection Information</h3>
+                        <p class="contact-panel-desc">
+                            Feel free to reach out to discuss internship opportunities, project collaborations, or just to say hello! I will get back to you as soon as possible.
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <!-- Email -->
+                            <div class="contact-method-card">
+                                <div class="method-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="method-details">
+                                    <span class="method-label">Email Me</span>
+                                    <a href="mailto:dineshnaarayanan30@gmail.com" class="method-value">dineshnaarayanan30@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="contact-method-card">
+                                <div class="method-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="method-details">
+                                    <span class="method-label">Call / Text</span>
+                                    <a href="tel:7604871203" class="method-value">+91 76048 71203</a>
+                                </div>
+                            </div>
+
+                            <!-- Social Links Card -->
+                            <div class="contact-method-card">
+                                <div class="method-icon">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                                </div>
+                                <div class="method-details font-socials">
+                                    <span class="method-label">Social Hubs</span>
+                                    <div class="method-social-links">
+                                        <a href="https://github.com/dineshnaarayanan" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                        <span class="social-divider">|</span>
+                                        <a href="https://www.linkedin.com/in/dineshnaarayanan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p class="footer-copyright">&copy; 2026 Dinesh Naarayanan K. All rights reserved.</p>
+            <p class="footer-tagline">Designed & Built with passion</p>
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
